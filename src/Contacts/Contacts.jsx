@@ -1,7 +1,8 @@
 import React from 'react'
+import './index.css'
 
 export default function Contacts() {
   return (
-    <div>Contacts</div>
+    <div className='contact'>Contacts</div>
   )
 }
