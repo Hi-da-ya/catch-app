@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Contacts from './components/Contacts/Contacts'
 import Navbar from './components/Navbar/Navbar'
+import Home from './components/Home/Home'
 
 function App() {
 
@@ -12,7 +13,9 @@ function App() {
     <>
       <h1>React is interesting</h1>
       <Navbar/>
+      <Home/>
       <Contacts/>
+
     
        
     </>
